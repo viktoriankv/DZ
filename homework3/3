@@ -1,0 +1,47 @@
+// uml диаграмма 1
+public class Directory {
+    Set<Folder> folders = new HashSet<Folder>();
+}
+
+
+public class Folder{}
+
+
+public class Audio extends Folder {}
+
+public class Video extends Folder {}
+
+public class Text extends Folder {}
+
+
+// uml диаграмма 2
+        public class Bouquet{
+    Set<Flower> flowers = new HashSet<Flower>();
+}
+
+
+        public class Flower{}
+
+
+        public class Rose extends Flower {}
+
+        public class Chamomile extends Flower {}
+
+        public class Aster extends Flower {}
+
+        public class Tulip extends Flower {}
+
+        public class Kust {}
+
+
+// uml диаграмма 3
+    public class Store {
+    Set<Instrument> instrument = new HashSet<Instrument>();
+}
+
+
+        public class Instrument{}
+
+       public class Guitar extends Instrument {}
+       public class Piano extends Instrument {}
+       public class Trumpet extends Instrument {}
