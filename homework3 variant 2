@@ -1,0 +1,44 @@
+// uml диаграмма 1
+public class Directory {}
+    public void addFolder(){};
+
+
+public class Folder{}
+
+
+public class Audio extends Folder {}
+
+public class Video extends Folder {}
+
+public class Text extends Folder {}
+
+
+// uml диаграмма 2
+        public class Bouquet{}
+    public void addFlower(){};
+
+
+        public class Flower{}
+
+
+        public class Rose extends Flower {}
+
+        public class Chamomile extends Flower {}
+
+        public class Aster extends Flower {}
+
+        public class Tulip extends Flower {}
+
+        public class Kust {}
+
+
+// uml диаграмма 3
+    public class Store {}
+    public void add Instrument(){};
+
+
+        public class Instrument{}
+
+       public class Guitar extends Instrument {}
+       public class Piano extends Instrument {}
+       public class Trumpet extends Instrument {}
