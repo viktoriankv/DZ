@@ -1,0 +1,64 @@
+// uml диаграмма 1
+public class Directory {
+}
+    public void addFolder(Folder newFolder){
+        folder.add(newFolder);
+        // связываем папку с этой директорией
+
+
+public class Folder{ // класс папка
+    }
+// наследуем класс папка
+public class Audiofolder extends Folder {
+}
+// наследуем класс папка
+public class Videofolder extends Folder {
+}
+// наследуем класс папка
+public class Textfolder extends Folder {
+}
+
+
+// uml диаграмма 2
+        public class Bouquet{
+        }
+    public void addFlower(Flower newFlower){
+    flower.add(newFlower);
+        // связываем цветок с букетом
+
+
+        public class Flower{ // класс цветок
+        }
+// наследуем класс цветок
+        public class Rose flower extends Flower {
+        }
+// наследуем класс цветок
+        public class Chamomile extends Flower {
+        }
+// наследуем класс цветок
+        public class Aster extends Flower {
+        }
+// наследуем класс цветок
+    public class Tulip extends Flower {
+    }
+
+
+// uml диаграмма 3
+    public class Store {
+    }
+    public void addMusical instrument(Musical instrument newMusical instrument){
+    musical instrument.add(newMusical instrument);
+        // связываем инструмент с магазином
+
+
+        public class Musical instrument{ // класс инструмент
+        }
+// наследуем класс инструмент
+        public class Guitar extends Musical instrument {
+        }
+// наследуем класс инструмент
+        public class Piano extends Musical instrument {
+        }
+// наследуем класс инструмент
+        public class Trumpet extends Musical instrument {
+}
