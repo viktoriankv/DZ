@@ -1,0 +1,43 @@
+abstract class  Folder{}
+
+
+ class Audio extends Folder {}
+
+ class Video extends Folder {}
+
+ class Text extends Folder {}
+
+ class Directory {
+     Set<Folder> folders = new HashSet<Folder>();
+ }
+
+// uml диаграмма 2
+        
+       abstract class Flower{}
+
+
+         class Rose extends Flower {}
+
+         class Chamomile extends Flower {}
+
+         class Aster extends Flower {}
+
+         class Tulip extends Flower {}
+
+         class Kust {}
+
+    class Bouquet {
+    Set<Flower> flowers = new HashSet<Flower>();
+}
+    
+// uml диаграмма 3
+     
+        abstract class Instrument{}
+
+        class Guitar extends Instrument {}
+        class Piano extends Instrument {}
+        class Trumpet extends Instrument {}
+
+        class Store {
+        Set<Instrument> instrument = new HashSet<Instrument>();
+}
